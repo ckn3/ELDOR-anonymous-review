@@ -17,9 +17,26 @@ Anonymous code release for ELDOR experiments (wrappers, configs, scripts, evalua
 
 ## Review artifacts
 
-This release contains code and result tables. Dataset files and trained checkpoints
-are not included; see [release scope](docs/ARTIFACTS.md).
+This release contains code and result tables. Dataset files are hosted separately
+at the links below. Trained checkpoints are not included; see
+[release scope](docs/ARTIFACTS.md).
 See [portable setup](docs/REVIEW_SETUP.md) before running a command.
+
+## Dataset Downloads
+
+The datasets are available through the following anonymous repositories.
+Both can be downloaded without logging in or requesting access.
+
+- **[ELDOR — Full Dataset](https://huggingface.co/datasets/ICLR-Review23/ELDOR)**
+  Approximately 18.1 GB. Contains 12 aligned orthomosaic image–label pairs
+  organized into the training, validation, and test splits.
+
+- **[ELDOR — Sample Dataset](https://huggingface.co/datasets/ICLR-Review23/ELDOR-sample)**
+  Approximately 3.04 GB. Contains one complete site and 9,849 paired
+  image and label patches for quick inspection.
+
+These repositories contain dataset files and documentation only.
+Model checkpoints are not included.
 
 ## Dataset overview and key figures
 
