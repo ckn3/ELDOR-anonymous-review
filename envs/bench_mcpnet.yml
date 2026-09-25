@@ -1,0 +1,5 @@
+name: bench_mcpnet
+channels:
+  - defaults
+dependencies:
+  - python=3.10

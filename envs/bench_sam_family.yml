@@ -1,0 +1,5 @@
+name: bench_sam_family
+channels:
+  - defaults
+dependencies:
+  - python=3.10

@@ -1,0 +1,5 @@
+name: bench_ssaseg
+channels:
+  - defaults
+dependencies:
+  - python=3.8
